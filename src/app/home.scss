@@ -1,0 +1,21 @@
+@media screen and (max-width:768px){
+   .home {
+    display: grid;
+    grid-template-rows: auto auto;
+    //gap: 10px;
+   }
+}
+@media screen and (min-width:768px){
+    .home {
+      width: 100vw;
+      height: 100vh;
+      display: grid;
+      place-items: center;
+      section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      height: 50%;
+      
+      }
+    }
+ }
